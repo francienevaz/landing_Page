@@ -36,6 +36,24 @@ span {
     font-size: 12px;
 }
 
+span .show-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+span .hide-btn {
+    display: block;
+}
+
+span i.hide-btn::before {
+    content: "\f070";
+}
 a {
     color: #333;
     font-size: 14px;
