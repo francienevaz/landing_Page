@@ -10,7 +10,8 @@ signInBtn.addEventListener('click', () => {
     container.classList.remove("right-panel-active");
 })
 
-const passField = document.querySelector('.password');
+const passField = document.querySelectorAll("input");
+const passField2 = document.querySelector('#password2');
 const showBtn = document.querySelector('.show-password i');
 
 showBtn.addEventListener('click', () => {
