@@ -11,10 +11,10 @@ signInBtn.addEventListener('click', () => {
 })
 
 const passField = document.querySelector(".password");
-const showBtn = document.querySelector('.show-password i');
+const showBtn = document.querySelector(".show-password i");
 
 showBtn.onclick = () => {
-    if (passField.type === 'password') {
+    if (passField.type === "password") {
         passField.type = "text";
         showBtn.classList.add("hide-btn");
     } else {
