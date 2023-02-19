@@ -38,14 +38,15 @@ span {
 
 span > i {
     position: relative;
-    bottom: 5px;
+    left: 120px;
+    bottom: 38px;
     font-size: 20px;
     color: #f3b2b2;
     cursor: pointer;
     display: none;
 }
 
-span .hide-btn {
+span > i.hide-btn {
     display: block;
 }
 
