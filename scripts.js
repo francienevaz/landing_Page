@@ -10,13 +10,3 @@ showBtn.onclick = () => {
         showBtn.classList.remove("hide-btn");
     }
 }
-
-// showBtn.addEventListener('click', () => {
-//     if (passField.type === 'password') {
-//         passField.type = "text";
-//         showBtn.classList.add("hide-btn");
-//     } else {
-//         passField.type = "password";
-//         showBtn.classList.remove("hide-btn");
-//     }
-// })
